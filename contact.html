@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Rin's Commission</title>
+  <link rel="stylesheet" href="style.css?v=3">
+  <link rel="icon" type="image/jpg" href="images/favicon.jpg">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-bar">
+      <a class="brand" href="index.html">Rin's Commission</a>
+      <input type="checkbox" id="menu-toggle" class="menu-check">
+      <label for="menu-toggle" class="menu-btn">Menu</label>
+      <nav class="nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="has-dropdown">
+            <details>
+              <summary>About</summary>
+              <ul class="dropdown">
+                <li><a href="about.html">About the Artist</a></li>
+                <li><a href="prices.html">Commission Prices</a></li>
+                <li><a href="howtoorder.html">How to Order</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+              </ul>
+            </details>
+          </li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="registration.html">Order Form</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="layout">
+    <main>
+      <h1 class="page-title">Contact Me</h1>
+      <section class="panel">
+        <h2>Let's Get in Touch!</h2>
+        <p>
+          Have questions about my commissions, custom requests,
+          or artwork details? Feel free to reach out!
+          I'd love to hear from you and help bring your creative
+          ideas to life.
+        </p>
+
+        <h2>Find Me Here</h2>
+        <ul class="contact-list">
+          <li>Email:
+            <a href="mailto:nazwaprinal@gmail.com">nazwaprinal@gmail.com</a>
+          </li>
+          <li>Instagram:
+            <a href="https://instagram.com/fayewebstt" target="_blank" rel="noopener">Visit My Instagram</a>
+          </li>
+          <li>Twitter/X:
+            <a href="https://x.com/cgrtafters" target="_blank" rel="noopener">Visit My Twitter/X</a>
+          </li>
+          <li>YouTube:
+            <a href="https://youtube.com/nawalengkara" target="_blank" rel="noopener">Visit My YouTube</a>
+          </li>
+        </ul>
+
+        <h2>Send Me a Message</h2>
+        <p>
+          You can also send me a message using the form below.
+          Please fill in your details and let me know what you'd
+          like to ask!
+        </p>
+
+        <form action="mailto:nazwaprinal@gmail.com" method="post" enctype="text/plain">
+          <label>Full Name
+            <input type="text" name="name" placeholder="Enter your name" required>
+          </label>
+
+          <label>Email Address
+            <input type="email" name="email" placeholder="Enter your email" required>
+          </label>
+
+          <label>Subject
+            <input type="text" name="subject" placeholder="What would you like to discuss?" required>
+          </label>
+
+          <label>Message
+            <textarea name="message" rows="5" placeholder="Write your message here..." required></textarea>
+          </label>
+
+          <button class="btn" type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <aside>
+      <div class="widget">
+        <h3>Time Now</h3>
+        <div class="clock-time" id="clock">00:00:00</div>
+        <div class="clock-date" id="date"></div>
+      </div>
+      <div class="widget">
+        <h3>My Drawing Process</h3>
+        <div class="video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/-zO3KNuNM50?si=cGR8ImbTf7TTr3Kg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Rin's Commission. All artwork rights reserved.</p>
+    <p>Made with love by Rin ♡</p>
+  </footer>
+
+  <script src="script.js?v=3"></script>
+</body>
+</html>
